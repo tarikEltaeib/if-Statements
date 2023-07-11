@@ -11,7 +11,7 @@ int main() {
 		cout << "Student grade is B " << endl;
 	if (grade >= 70 && grade <= 79)
 		cout << "Student grade is C " << endl;
-	if (-grade >= 60 && grade <= 69)
+	if (grade >= 60 && grade <= 69)
 		cout << "Student grade is D " << endl;
 	if (grade < 60 && grade>=0)
 		cout << "Student grade is F " << endl;
